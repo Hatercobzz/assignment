@@ -1,0 +1,42 @@
+
+.mydiv{
+    display: block;
+    border: 5px outset rgb(21, 60, 104);
+    background-color: rgb(31, 211, 61);
+    color: rgb(17, 17, 17);
+}
+
+.s_div{
+    border: 5px outset rgb(46, 21, 104);
+    background-color: rgb(193, 211, 31);
+    color: rgb(17, 17, 17);
+    text-align: center;
+    font-family: monospace ;
+    padding: 5rem; 
+    /* padding-top: 2rem; */
+}
+
+.mysection {
+    border: 2px dotted  red;
+    border-radius: 12px;
+    /* border-style: dotted;*/
+} 
+
+.mysection p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.mysection h3{
+    text-align: center;
+    border: 4px solid;
+    border-radius: 15px;
+}
+
+li{
+    /* size:25px;          */
+    font-size: 22px;
+}
+
+li:hover{
+    color: blueviolet;
+}
