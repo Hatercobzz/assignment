@@ -1,0 +1,10 @@
+create table books(title VARCHAR(20) NOT NULL,
+             author VARCHAR(20) NOT NULL,
+             publish_year INT NOT NULL,);
+             
+INSERT into books values('Harry Potter','J.K.Rowling',1987);
+INSERT into books values('The Great Gatsby','F. Scott Fitzgerald',1925);
+INSERT into books values('To Kill a Mockingbird','Harper Lee ',1960);
+
+SELECT title, author, "Publish_year"
+FROM books
